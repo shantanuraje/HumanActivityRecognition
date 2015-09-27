@@ -3,19 +3,20 @@
 * subjectId : Unique Identifier to identify participating subjects.
 
 * Activity : Activity States to be analyzed through accelerometer and gyroscope data.  
-		   		* WALKING
-		   		* WALKING_UPSTAIRS
-		   		* WALKING_DOWNSTAIRS
-		   		* SITTING
-		   		* STANDING
-		   		* LAYING
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
-# Variables Used : 
+# Notes : 
 * The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAcc-XYZ and timeGyro-XYZ. 
 * The acceleration signal was then separated into body and gravity acceleration signals (timeBodyAcc-XYZ and timeGravityAcc-XYZ).
 * The magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 * Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
 
+# Variables Names : 
 * timeBodyAccMean
 * timeBodyAccstd
 * timeGravityAccMean
