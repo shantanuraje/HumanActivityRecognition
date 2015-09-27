@@ -12,11 +12,11 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 Script Information:
-## The script run_analysis.R loads the data from data located in the working directory.
-## It row binds the 3 the training and test datasets for X,Y and subject.
-## Only features that contain mean() or std() are then extracted from the original dataset of 561 variables.
-## A data frame containing all the data in created using column bind.
-## Activity names which in the data set are categorical variables expressed as numbers are converted to respective verb strings.
-## The variable names are then cleaned up using substitution method gsub and regular exp matching.
-## Finally the average of each variable for each activity and each subject is computed using the aggregate function of the dplyr package.
+* The script run_analysis.R loads the data from data located in the working directory.
+* It row binds the 3 the training and test datasets for X,Y and subject.
+* Only features that contain mean() or std() are then extracted from the original dataset of 561 variables.
+* A data frame containing all the data in created using column bind.
+* Activity names which in the data set are categorical variables expressed as numbers are converted to respective verb strings.
+* The variable names are then cleaned up using substitution method gsub and regular exp matching.
+* Finally the average of each variable for each activity and each subject is computed using the aggregate function of the dplyr package.
 
